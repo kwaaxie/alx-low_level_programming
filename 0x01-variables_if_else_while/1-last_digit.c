@@ -4,14 +4,15 @@
 
 /**
  * main - Determine if the last digit of a random number is
- *
- * Determine : checks on the last digit of n
- * Return: Alwayys 0 (Success)
+ * greater than or less than 5, or is zero..
+ * (*
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
-	int n,
-	char last[] = "Last digit of";
+	int n;
+	char last[] = "Last digit of ";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -30,5 +31,4 @@ int main(void)
 	}
 	return (0);
 
-
-
+}
