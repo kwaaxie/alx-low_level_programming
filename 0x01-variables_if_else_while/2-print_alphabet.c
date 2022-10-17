@@ -2,15 +2,18 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point 
- * Description : Prints alphanet in lower case 
- * Return: 0 success
+ * main - returns alphabets
+ * Return: return 0 (successful)
  */
 int main(void)
 {
-	char letter;
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+	int ch = 'a';
+
+	while (ch <='z')
+	{
+		putchar(ch);
+		ch++;
+	}
 	putchar('\n');
 	return (0);
 }
