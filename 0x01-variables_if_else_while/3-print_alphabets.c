@@ -1,20 +1,26 @@
 #include <stdio.h>
 /**
- * main - Entry point 
- * Description : Alphabet uppercase
- * Return: 0 (successfull)
- * */
+ * main - prints the alphabet in lowecase, then in uppercase.
+ * Return: 0 on success
+ */
 int main(void)
 {
-	int i;
-	
-	for (i = 97; i <= 122; i++)
+	char c = "a';
+	char d = 'A';
+
+	while (c <= 'z')
 	{
-	putchar(i);
+		putchar(c);
+		c++;
+
 	}
-	for (i = 65; i <= 90; i++)
+	while (d <= 'Z')
 	{
-		putchar(i);
-	} putchar ('\n');
+		putchar(d);
+		d++;
+	
+	}
+	putchar('\n');
 	return (0);
+
 }
