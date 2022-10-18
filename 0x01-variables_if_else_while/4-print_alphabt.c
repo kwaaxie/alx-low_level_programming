@@ -1,17 +1,20 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: lower alphabet except e and q
+ * main - print the alphabet except the letters q and e
+ * Description: use print f
  * Return: 0 on success
  */
 int main(void)
 {
-	int i;
+	char c = 'a';
 
-	for (i = 97; i <= 122; i++)
+	while (c <= 'z')
 	{
-		if (!(i == 113 || i == 101))
-				putchar(i);
+		if (c != 'q' && c != 'e')
+		{
+			putchar(c);
+		}
+		c++;
 	}
 	putchar('\n');
 	return (0);
