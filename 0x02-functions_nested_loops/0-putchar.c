@@ -1,20 +1,19 @@
 #include "main.h"
-
 /**
-* main - print _putchar
-* is written by Kwaaxie
-* Return: 0
-**/
+ * main -prints _putchar
+ * Return: 0 success
+ */
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
+	char var[] = "_putchar";
+	int i;
+	int lenVar = sizeof(var) / sizeof(var[0]);
+
+	for (i = 0; i < lenVar - 1; i++)
+	{
+		_putchar(var[i]);
+	}
+	_putchar('\n');
+
+	return (0);
 }
