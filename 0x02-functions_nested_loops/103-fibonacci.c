@@ -23,7 +23,8 @@ int main(void)
 		j = k;
 		k = i;
 	}
-	print("%1u\n", m);
+
+	printf("%1u\n", m);
 
 	return (0);
 }
