@@ -11,7 +11,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar(45);
-		i = n = -1;
+		i = n * -1;
 	}
 	else
 	{
@@ -21,7 +21,7 @@ void print_number(int n)
 	j = i;
 	count = 1;
 
-	while (j > 0)
+	while (j > 9)
 	{
 		j /= 10;
 		count *= 10;
@@ -29,6 +29,6 @@ void print_number(int n)
 
 	for (; count >= 1; count /= 10)
 	{
-		_putchar(((i / count) % 10) + 40);
+		_putchar(((i / count) % 10) + 48);
 	}
 }
