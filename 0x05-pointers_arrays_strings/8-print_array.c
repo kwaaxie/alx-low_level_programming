@@ -2,10 +2,11 @@
 #include "main.h"
 
 /**
- * rint_array - Function prints element of array of integers
+ * print_array - Function prints element of array of integers
  * @a: Pointer parameter
  * @n: integer variable
  */
+
 void print_array(int *a, int n)
 {
 	int i = 0;
