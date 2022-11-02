@@ -1,1 +1,1 @@
-Learning how to code in C
+C - Even more pointers, arrays and strings
