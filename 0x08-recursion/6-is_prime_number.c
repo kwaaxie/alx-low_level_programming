@@ -14,7 +14,7 @@ int evaluate_num(int num, int iterator)
 
 	else if (num % iterator == 0)
 	{
-		··return (1);
+		return (0);
 	}
 
 	if (num % iterator != 0)
